@@ -1,0 +1,8 @@
+GET http://localhost:3001/posts
+###
+GET http://localhost:3001/posts/4323885f-61e4-4f85-bf3b-51a1fbf723cc
+###
+PUT   http://localhost:3001/posts/f217738d-e066-44e8-8f8b-319b51070220/comments/4a4a6082-c674-4821-8ac5-3140fd25a64d
+
+content-type: application/json
+  {"message" : "Hi"}
